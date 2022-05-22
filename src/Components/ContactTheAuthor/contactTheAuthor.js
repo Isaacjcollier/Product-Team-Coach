@@ -24,7 +24,7 @@ const ContactTheAuthor = () => {
                 <p className={'statement'}>{'Email The Author'}</p>
                 <p className={'statement2'}>{'For Questions or Inquiries'}</p>
             </div>
-            <form ref={form} onSubmit={sendEmail}>
+            <form className='contactTheAuthor-form-container' ref={form} onSubmit={sendEmail}>
                 <div className='name-box'>
                     <label className='name-label' >First Name</label>
                     <input className='name-input' type="text" name="name" placeholder='Preferred name'/>
@@ -37,7 +37,7 @@ const ContactTheAuthor = () => {
                 <br/>
                 <div className='name-box'>
                     <label className='name-label'>Message</label>
-                    <textarea className='message-input' name="message" />
+                    <textarea className='message-input' name="message" placeholder='Hello Jordan, I just wanted to touch base...' />
                 </div>
                 <br/>
                 <input className='submit-button' type="submit" value="Send Jordan a Message" />

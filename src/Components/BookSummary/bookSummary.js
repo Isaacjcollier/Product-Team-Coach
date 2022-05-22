@@ -58,6 +58,7 @@ const BookSummary = (props) => {
             <div className='statement-container'>
                 <a className='submit-button-amazon' href={bookLink} target="_blank">Buy the Book on Amazon</a>
             </div>
+            
         </div>
     )
 }
