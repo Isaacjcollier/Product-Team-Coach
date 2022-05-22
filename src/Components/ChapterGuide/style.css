@@ -1,5 +1,15 @@
-.chapter-list-container {
+.chapterGuide-title-container {
+    margin-top: 5rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
 
+.chapterGuide-title {
+    text-transform: uppercase;
+    color:white;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .part-header {
@@ -15,3 +25,86 @@
     color: white;
     font-weight: 500;
 }
+
+@media only screen 
+and (min-width : 100px)
+and (max-width : 759px) {
+    .chapterGuide-title {
+        font-size: 2rem;
+    }
+
+    .chapterGuide-container {
+        padding: 1rem;
+        margin: 20px auto;
+        max-width: 300px;
+    }
+
+    .part-header {
+        font-size: 24px;
+    }
+
+    .part-header-secondary {
+        font-size: 24px;
+    }
+
+    .chapter-guide-text {
+        font-size: 16px;
+    }
+
+}
+
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 760px)
+and (max-width: 1023px)  {
+    .chapterGuide-title {
+        font-size: 3rem;
+    }
+
+    .chapterGuide-container {
+        padding: 1rem;
+        margin: 20px auto;
+        max-width: 600px;
+    }
+
+    .part-header {
+        font-size: 32px;
+    }
+
+    .part-header-secondary {
+        font-size: 32px;
+    }
+
+    .chapter-guide-text {
+        font-size: 20px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+    .chapterGuide-title {
+        font-size: 4rem;
+    }
+
+    .chapterGuide-container {
+        padding: 1rem;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    .part-header {
+        font-size: 44px;
+    }
+
+    .part-header-secondary {
+        font-size: 44px;
+    }
+
+    .chapter-guide-text {
+        font-size: 26px;
+    }
+}
+
+

@@ -7,6 +7,7 @@
     text-transform: uppercase;
     color:white;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
 .statement2 {
@@ -42,7 +43,6 @@ and (max-width : 759px) {
 
     .statement {
         font-size: 2rem;
-        margin-bottom: 0;
     }
 
     .statement2 {
@@ -60,7 +60,7 @@ and (max-width : 759px) {
     .bookSummary-container {
         padding: 1rem;
         margin: 20px auto;
-        /* max-width: 300px; */
+        max-width: 300px;
     }
 
     .general-text {
@@ -68,7 +68,7 @@ and (max-width : 759px) {
     }
 
     .submit-button-amazon {
-        font-size: 18px;
+        font-size: 14px;
     }
 
 }
@@ -80,7 +80,6 @@ and (min-width : 760px)
 and (max-width: 1023px)  {
     .statement {
         font-size: 3rem;
-        margin-bottom: 0;
     }
 
     .statement2 {
