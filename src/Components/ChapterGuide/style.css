@@ -1,0 +1,17 @@
+.chapter-list-container {
+
+}
+
+.part-header {
+    color: #17285a;
+}
+
+.part-header-secondary {
+    color: #17285aca;
+}
+
+.chapter-guide-text {
+    text-indent: 1rem;
+    color: white;
+    font-weight: 500;
+}
