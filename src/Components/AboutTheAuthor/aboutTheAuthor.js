@@ -19,8 +19,6 @@ const AboutTheAuthor = () => {
                 <h3 className={'name-text'}>Jordan Collier</h3>
             </div>
 
-
-
             <p className={'general-text'}>{aboutAutherText1}</p>
             <p className={'general-text'}>{aboutAutherText2}</p>
             
