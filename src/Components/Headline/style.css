@@ -1,40 +1,168 @@
-.container {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.headline {
+/* .headline {
     color: #17285a;
     font-size: 3rem;
     text-align: center;
+} */
+
+.headline-book-name {
+    color: #17285a; 
 }
 
-.book {
-    padding-top: 3rem;
-    width: 80%;
-    height: auto;
-}
-
-.subHeader {
-    margin: 0;
-    margin-top: .5rem;
+.headline-subHeader {
     color: white;
 }
 
-.name {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 700;
+.headline-name {
     color: #17285a;
 }
 
-.general-text {
-    line-height: 26px;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 100px)
+and (max-width : 759px) {
+    .headline-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headline-book {
+        padding-top: 3rem;
+        width: 80%;
+    }
+
+    .headline-book-name {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .headline-sub-container {
+        margin: 0;
+        margin-top: .5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .headline-name {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
 }
 
-.new-section {
-    width: 100%;
-    background-color: purple;
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 760px)
+and (max-width: 1023px)  {
+    .headline-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 0 2rem;
+    }
+
+    .headline-book {
+        padding-top: 3rem;
+        width: 50%;
+    }
+
+    .headline-sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
+    .headline-book-name {
+        font-size: 4rem;
+        width: 30%;
+        text-align: left;
+        /* text-align: center; */
+    }
+
+    .headline-subHeader {
+        margin: 0;
+        margin-top: .5rem;
+        font-size: 2rem;
+    }
+
+    .headline-name {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+    .headline-container {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 5rem 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .headline-book {
+        padding-top: 3rem;
+        width: 50%;
+    }
+
+    .headline-sub-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
+    .headline-book-name {
+        font-size: 4rem;
+        width: 30%;
+        /* text-align: center; */
+    }
+
+    .headline-subHeader {
+        margin: 0;
+        margin-top: .5rem;
+        font-size: 2rem;
+    }
+
+    .headline-name {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+    /* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles */
 }

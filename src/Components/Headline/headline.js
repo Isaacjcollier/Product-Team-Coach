@@ -5,13 +5,13 @@ import exampleBookPicture from '../../Images/Book/bookexample.png'
 
 const Headline = () => {
     return (
-        <div className='container'>
-            <img className='book' src={exampleBookPicture} />
-            <h1 className='headline'>Product Team Coach</h1>
-            <div className='container'>
-                <p className='subHeader'>A book by</p>
-                <p className='name'>Jordan Collier</p>
-            </div>
+        <div className='headline-container'>
+            <img className='headline-book' src={exampleBookPicture} />
+            <div className='headline-sub-container'>
+                <h1 className='headline-book-name'>Product Team Coach</h1>
+                <p className='headline-subHeader'>A book by</p>
+                <p className='headline-name'>Jordan Collier</p>
+                </div>
         </div>
     )
 }
