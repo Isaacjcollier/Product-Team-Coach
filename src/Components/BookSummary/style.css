@@ -3,45 +3,17 @@
     font-weight: 500;
 }
 
-.bookSummary-container {
-    padding: 1rem;
-    margin: 20px auto;
-    max-width: 300px;
-}
-
 .statement {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0;
     text-transform: uppercase;
     color:white;
+    font-weight: 700;
 }
 
 .statement2 {
-    margin-top: 0;
-    font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
     color: #17285a
-    
 }
-
-.statement-container {
-    margin-top: 5rem;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.profile {
-    border-radius: 50%;
-    width: 50%;
-}
-
-.name-text {
-    color: #17285a;
-}
-
 
 .submit-button-amazon {
     text-decoration: none;
@@ -50,7 +22,7 @@
     border: none;
     background-color: #17285a;
     color: white;
-    box-shadow: 0 6px rgb(109, 109, 109)
+    box-shadow: 0 6px rgb(109, 109, 109);
 }
 
 .submit-button-amazon:hover {
@@ -62,3 +34,116 @@
   box-shadow: 0 3px rgb(80, 80, 80);
   transform: translateY(4px);
 }
+
+
+@media only screen 
+and (min-width : 100px)
+and (max-width : 759px) {
+
+    .statement {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .statement2 {
+        margin-top: 0;
+        font-size: 2rem; 
+    }
+
+    .statement-container {
+        margin-top: 5rem;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .bookSummary-container {
+        padding: 1rem;
+        margin: 20px auto;
+        /* max-width: 300px; */
+    }
+
+    .general-text {
+        font-size: 18px;
+    }
+
+    .submit-button-amazon {
+        font-size: 18px;
+    }
+
+}
+
+
+/* Tablet (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 760px)
+and (max-width: 1023px)  {
+    .statement {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .statement2 {
+        margin-top: 0;
+        font-size: 3rem; 
+    }
+
+    .statement-container {
+        margin-top: 5rem;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .bookSummary-container {
+        padding: 1rem;
+        margin: 20px auto;
+        max-width: 600px;
+    }
+
+    .general-text {
+        font-size: 24px;
+    }
+
+    .submit-button-amazon {
+        font-size: 24px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1024px) {
+    .statement {
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+
+    .statement2 {
+        margin-top: 0;
+        font-size: 4rem; 
+    }
+
+    .statement-container {
+        margin-top: 5rem;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .bookSummary-container {
+        padding: 1rem;
+        margin: 20px auto;
+        max-width: 900px;
+    }
+
+    .general-text {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .submit-button-amazon {
+        font-size: 42px;
+    }
+}
+
+
