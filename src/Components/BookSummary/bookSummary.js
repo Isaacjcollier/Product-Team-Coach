@@ -12,7 +12,7 @@ const BookSummary = (props) => {
     const statement = 'enter into a clearer understanding'
     const statement2 = 'turn ideas into valuable products'
 
-    const thirdParagraph = 'There are so many organizations, schools certifications, and companies out in the world vying for your attention and money. This in turn can cause confusion as to where to find information or even where to start the journey towards understanding what it means to actually care for a product or how even tocreate one.'
+    const thirdParagraph = 'There are so many organizations, schools certifications, and companies out in the world vying for your attention and money. This in turn can cause confusion as to where to find information or even where to start the journey towards understanding what it means to actually care for a product or how even to create one. This book equips leader\'s who need a framework which delivers value informed by empowered teams to continuously adjust to business priorities, market needs/awareness/context, with scoped iterations and shared understanding.'
 
     const statement3 = 'a framework for any'
     

@@ -3,9 +3,13 @@
     width: 50%;
 }
 
+
+
 .name-text {
     color: #17285a;
 }
+
+
 
 
 
@@ -16,21 +20,65 @@ and (max-width : 759px) {
     .name-text {
         font-size: 20px;
     }
+
+    .about-author-container-desktop {
+        display: none;
+    }
+
+    .about-author-container {
+        display: auto;
+    }
 }
 
 /* Tablet (portrait and landscape) ----------- */
 @media only screen 
 and (min-width : 760px)
-and (max-width: 1023px)  {
+and (max-width: 1300px)  {
     .name-text {
         font-size: 30px;
+    }
+
+    .about-author-container-desktop {
+        display: none;
+    }
+
+    .about-author-container {
+        display: auto;
     }
 }
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1024px) {
+and (min-width : 1300px) {
     .name-text {
         font-size: 40px;
+    }
+
+    .about-author-container-desktop {
+        display: auto;
+    }
+
+    
+    .about-author-container {
+        display: none;
+    }
+
+    .statement-container-desktop {
+        display: flex;
+        justify-content: row;
+        margin-top: 5rem;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .profile-desktop {
+        width: 60%;
+        margin-left: -25%;
+    }
+
+    .about-author-desktop {
+        margin-right: -20%;
+
     }
 }

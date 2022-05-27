@@ -40,7 +40,7 @@ const ContactTheAuthor = () => {
                     <textarea className='message-input' name="message" placeholder='Hello Jordan, I just wanted to touch base...' />
                 </div>
                 <br/>
-                <input className='submit-button' type="submit" value="Send Jordan a Message" />
+                <input className='submit-button-author' type="submit" value="Send Jordan a Message" />
             </form>
         </div>
     )
