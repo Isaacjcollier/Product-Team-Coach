@@ -1,6 +1,5 @@
 .general-text {
     color: white;
-    font-weight: 500;
 }
 
 .statement {
@@ -113,13 +112,13 @@ and (max-width: 1023px)  {
 @media only screen 
 and (min-width : 1024px) {
     .statement {
-        font-size: 4rem;
+        font-size: 2.7rem;
         margin-bottom: 0;
     }
 
     .statement2 {
         margin-top: 0;
-        font-size: 4rem; 
+        font-size: 2.7rem; 
     }
 
     .statement-container {

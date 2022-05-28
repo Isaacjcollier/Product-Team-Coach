@@ -35,8 +35,8 @@ const AboutTheAuthor = () => {
                     <img className='profile-desktop' src={profileStanding} />
 
                     <div className={'about-author-desktop'}>
-                        <p className={'general-text'}>{aboutAutherText1}</p>
-                        <p className={'general-text'}>{aboutAutherText2}</p>
+                        <p className={'general-text-author'}>{aboutAutherText1}</p>
+                        <p className={'general-text-author'}>{aboutAutherText2}</p>
                     </div>
                 </div>
 

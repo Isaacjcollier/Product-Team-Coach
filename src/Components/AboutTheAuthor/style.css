@@ -10,7 +10,12 @@
 }
 
 
-
+.general-text-author {
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    line-height: 40px;
+}
 
 
 
