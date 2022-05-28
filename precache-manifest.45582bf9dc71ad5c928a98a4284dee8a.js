@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "dfe4a68bdf7710a83a34",
-    "url": "/Product-Team-Coach/static/css/main.f303db3f.chunk.css"
+    "revision": "ab072d97ad0fa4e050dd",
+    "url": "/Product-Team-Coach/static/css/main.97437a2c.chunk.css"
   },
   {
-    "revision": "dfe4a68bdf7710a83a34",
-    "url": "/Product-Team-Coach/static/js/main.dfe4a68b.chunk.js"
+    "revision": "ab072d97ad0fa4e050dd",
+    "url": "/Product-Team-Coach/static/js/main.ab072d97.chunk.js"
   },
   {
     "revision": "05a8e767b6b683ee5dc9",
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Product-Team-Coach/static/media/JordanFullProfile.8a80dfef.png"
   },
   {
-    "revision": "53a96abae52d7ae481e48cda84f9f226",
+    "revision": "82cd75d42c7f7b4a9c8e43ba7eb2b52d",
     "url": "/Product-Team-Coach/index.html"
   }
 ];
