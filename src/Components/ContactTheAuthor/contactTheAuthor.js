@@ -8,14 +8,14 @@ const ContactTheAuthor = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        // emailjs.sendForm('productTeamCoach-test', 'template_tp3actw', form.current, 'IQ_3h5O2aXFPvI1zM')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        emailjs.sendForm('scunkymonkeyhoooomann!%$', 'template_370bvwx', form.current, 'uvU6ObFsHa5I0Ikxt')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
         
-        // e.target.reset()
+        e.target.reset()
     };
 
     return (

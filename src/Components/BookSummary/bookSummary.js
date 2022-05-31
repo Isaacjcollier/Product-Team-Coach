@@ -22,7 +22,7 @@ const BookSummary = (props) => {
     
     const statement6 = 'become a product team coach'
 
-    const bookLink = 'https://www.amazon.com/Meta-Knight-amiibo-Japan-Super-165993011/dp/B00PIEHUD8/ref=sr_1_5?crid=2EZFHJJIC9VTC&keywords=amiibo&qid=1652887153&sprefix=amiibo%2Caps%2C91&sr=8-5'
+    const bookLink = 'https://www.linkedin.com/feed/update/urn:li:activity:6936051934399258624/'
 
 
 
