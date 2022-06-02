@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/Product-Team-Coach/static/media/JordanFullProfile.8a80dfef.png"
   },
   {
-    "revision": "2a430529c286735bd1786bd6a469d19c",
+    "revision": "4d476a908509da423374d0a0b955884f",
     "url": "/Product-Team-Coach/index.html"
   }
 ];
