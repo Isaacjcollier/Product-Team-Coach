@@ -22,7 +22,7 @@ const BookSummary = (props) => {
     
     const statement6 = 'become a product team coach'
 
-    const bookLink = 'https://www.linkedin.com/feed/update/urn:li:activity:6936051934399258624/'
+    const bookLink = 'https://www.amazon.com/dp/0578372363?ref_=pe_3052080_397514860'
 
 
 
